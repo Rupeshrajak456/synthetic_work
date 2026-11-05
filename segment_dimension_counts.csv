@@ -1,0 +1,33 @@
+segment,stage,dimension,hits
+1,I. Discovery and Initial Mystery,investigation_and_observation,8
+1,I. Discovery and Initial Mystery,objects_and_material_value,3
+2,I. Discovery and Initial Mystery,investigation_and_observation,3
+2,I. Discovery and Initial Mystery,objects_and_material_value,2
+3,I. Discovery and Initial Mystery,investigation_and_observation,2
+5,II. Investigation and Suspicion,deception_and_concealment,3
+5,II. Investigation and Suspicion,investigation_and_observation,3
+5,II. Investigation and Suspicion,objects_and_material_value,10
+6,II. Investigation and Suspicion,deception_and_concealment,15
+6,II. Investigation and Suspicion,investigation_and_observation,1
+6,II. Investigation and Suspicion,knowledge_and_revelation,1
+6,II. Investigation and Suspicion,objects_and_material_value,20
+7,II. Investigation and Suspicion,deception_and_concealment,1
+7,II. Investigation and Suspicion,investigation_and_observation,2
+7,II. Investigation and Suspicion,objects_and_material_value,2
+8,III. Examination and Deductive Reasoning,deception_and_concealment,2
+8,III. Examination and Deductive Reasoning,investigation_and_observation,5
+8,III. Examination and Deductive Reasoning,knowledge_and_revelation,1
+8,III. Examination and Deductive Reasoning,objects_and_material_value,11
+9,III. Examination and Deductive Reasoning,investigation_and_observation,2
+9,III. Examination and Deductive Reasoning,objects_and_material_value,2
+10,III. Examination and Deductive Reasoning,deception_and_concealment,2
+10,III. Examination and Deductive Reasoning,knowledge_and_revelation,3
+10,III. Examination and Deductive Reasoning,objects_and_material_value,1
+11,IV. Revelation and Resolution,knowledge_and_revelation,3
+12,IV. Revelation and Resolution,deception_and_concealment,1
+12,IV. Revelation and Resolution,knowledge_and_revelation,1
+12,IV. Revelation and Resolution,objects_and_material_value,2
+13,IV. Revelation and Resolution,deception_and_concealment,11
+13,IV. Revelation and Resolution,investigation_and_observation,4
+13,IV. Revelation and Resolution,knowledge_and_revelation,18
+13,IV. Revelation and Resolution,objects_and_material_value,9

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About · Reading the Magic Casket</title>
+<meta name="description" content="About Rupesh Rajak, MA Digital Humanities and Social Sciences at IIT (ISM) Dhanbad, and the supervision of this synthetic reading project.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Instrument+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-head"></header>
+
+<main id="main" class="wrap">
+  <header class="page-title">
+    <p class="kicker">About</p>
+    <h1>Rupesh Rajak</h1>
+    <p class="lede">MA, Digital Humanities and Social Sciences<br>Indian Institute of Technology (Indian School of Mines) Dhanbad</p>
+  </header>
+
+  <section class="sec">
+    <div class="about-grid">
+      <div class="prose">
+        <p>Rupesh Rajak is currently pursuing an M.A. in Digital Humanities and Social Sciences at the Indian Institute of Technology (Indian School of Mines), Dhanbad (2025–2027). He graduated in History (Honours) from BBMKU.</p>
+        <p>In the summer break of 2026 he spent six weeks on mining-community rehabilitation and CSR-related field activities. He completed a Def-Space winter internship at the Bharat Space Education Research Center (December 2025–26) and participated in a Hands-on Workshop on Artificial Intelligence and Machine Learning (16th and 17th January 2026).</p>
+        <p>Contact: <a href="mailto:25ma0009@iitism.ac.in">25ma0009@iitism.ac.in</a></p>
+
+        <h3>Education and experience</h3>
+        <ul class="timeline">
+          <li><time>2025–2027</time>M.A., Digital Humanities and Social Sciences, IIT (ISM) Dhanbad</li>
+          <li><time>Summer 2026</time>Six weeks of mining-community rehabilitation and CSR-related field activities</li>
+          <li><time>16–17 January 2026</time>Hands-on Workshop on Artificial Intelligence and Machine Learning</li>
+          <li><time>December 2025–26</time>Def-Space winter internship, Bharat Space Education Research Center</li>
+          <li><time>Undergraduate</time>B.A. History (Honours), BBMKU</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="card-plain">
+          <h2>Project supervision</h2>
+          <ul>
+            <li><a href="https://shanmugapriya.com/" target="_blank" rel="noopener">Shanmugapriya T.</a></li>
+            <li><a href="https://linktr.ee/sourav.dh.litcult" target="_blank" rel="noopener">Sourav Ghosh</a></li>
+          </ul>
+          <h2>Course</h2>
+          <ul>
+            <li>Monsoon Semester 2026<small>Department of Humanities and Social Sciences</small></li>
+            <li>Indian Institute of Technology (Indian School of Mines) Dhanbad</li>
+          </ul>
+          <h2>This project</h2>
+          <ul>
+            <li>Synthetic reading of R. Austin Freeman's “The Magic Casket”<small>Partial reading, LLM-assisted extraction, visualisation, interpretation</small></li>
+            <li><a id="repo-link" href="#" target="_blank" rel="noopener">Repository on GitHub</a><small>Corpus, prompt, extraction, theme dictionary and site source</small></li>
+            <li><a href="https://github.com/SouravGhosh-digital-humanities/Wifes_Letter_JSON_themes" target="_blank" rel="noopener">Methodological model</a><small>Wife's Letter JSON themes, Sourav Ghosh</small></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-cite">
+    <h2 id="h-cite">How to cite this project</h2>
+    <div class="code-head"><span>Suggested citation</span><button class="btn ghost" id="copy-cite" data-label="Copy citation" type="button">Copy citation</button></div>
+    <pre class="code" id="cite" style="font-family:var(--f-text);font-size:1rem;white-space:pre-wrap"></pre>
+  </section>
+</main>
+
+<footer id="site-foot"></footer>
+<script src="casket-data.js"></script>
+<script src="site.js"></script>
+<script>
+  document.getElementById("repo-link").href = SITE.repo;
+  const cite = `Rajak, Rupesh. "Reading the Magic Casket: A Synthetic Reading of R. Austin Freeman's 'The Magic Casket'." MA Digital Humanities and Social Sciences project, Indian Institute of Technology (Indian School of Mines) Dhanbad, Monsoon Semester 2026. ${SITE.repo}`;
+  document.getElementById("cite").textContent = cite;
+  copyButton(document.getElementById("copy-cite"), () => cite);
+</script>
+</body>
+</html>

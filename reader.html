@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Annotated text · Reading the Magic Casket</title>
+<meta name="description" content="The full text of R. Austin Freeman's The Magic Casket with all 154 extracted thematic phrases highlighted, filterable by theme and sub-type.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Instrument+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#story">Skip to the story</a>
+<header id="site-head"></header>
+
+<main id="main" class="wrap">
+  <header class="page-title">
+    <p class="kicker">The corpus, annotated</p>
+    <h1>The Magic Casket</h1>
+    <p class="lede">R. Austin Freeman's story in full, with every phrase the extraction found marked by theme. Hover a highlight to see its sub-type. Use the filters to follow one theme through the story.</p>
+  </header>
+
+  <div class="reader-layout" style="padding-top:36px">
+    <aside class="reader-side" aria-label="Reading controls">
+      <fieldset>
+        <legend>Themes</legend>
+        <div id="dim-filters"></div>
+      </fieldset>
+      <fieldset>
+        <legend><label for="sub-filter" style="display:inline;padding:0;color:inherit">Sub-type</label></legend>
+        <select id="sub-filter"><option value="">All sub-types</option></select>
+      </fieldset>
+      <fieldset>
+        <legend>Partial reading</legend>
+        <label><input type="checkbox" id="show-sample" checked> Mark the sampled blocks</label>
+      </fieldset>
+      <div>
+        <h2>Where the visible matches fall</h2>
+        <div class="minimap" id="minimap" aria-hidden="true"></div>
+        <p class="small muted" id="shown-count" style="margin:4px 0 20px"></p>
+      </div>
+      <div class="seg-nav-wrap">
+        <h2>Segments</h2>
+        <ul class="seg-nav" id="seg-nav"></ul>
+      </div>
+    </aside>
+
+    <article class="story" id="story" tabindex="-1"></article>
+  </div>
+
+  <nav class="next-prev" aria-label="Pages">
+    <a href="interpretation.html"><span>Previous</span><b>Interpretation</b></a>
+    <a class="nx" href="about.html"><span>Next</span><b>About the project</b></a>
+  </nav>
+</main>
+
+<footer id="site-foot"></footer>
+<script src="casket-data.js"></script>
+<script src="site.js"></script>
+<script>
+(function () {
+  const D = window.CASKET;
+  const text = D.text;
+  const M = D.matches.map((m, i) => ({ ...m, i }));
+  const segStartPara = {};
+  D.segments.forEach((s) => { segStartPara[s.paras.split("–")[0] - 1] = s; });
+  const inSample = (a, b) => D.partial.some((p) => a < p.end && b > p.start);
+
+  // build the story
+  let html = "";
+  D.paragraphs.forEach(([a, b], pi) => {
+    const seg = segStartPara[pi];
+    if (seg) {
+      html += `<div class="seg-mark" id="seg-${seg.n}"><span><b>Segment ${seg.n}</b> <span class="stage">· Stage ${seg.stage}, ${STAGE_NAMES[seg.stage]} · ${seg.words} words</span></span>
+        <span class="counts">${DIM_KEYS.map((d) => `<span class="dim d-${d}">${seg.counts[d]}</span>`).join("")}<span style="color:var(--ink-2)">${esc(seg.note)}</span></span></div>`;
+    }
+    const ms = M.filter((m) => m.s >= a && m.e <= b);
+    let cur = a, inner = "";
+    ms.forEach((m) => {
+      inner += esc(text.slice(cur, m.s));
+      inner += `<mark class="hl d-${m.dim}" id="m${m.i}" data-i="${m.i}" data-dim="${m.dim}" data-sub="${m.sub}" tabindex="0">${esc(text.slice(m.s, m.e))}</mark>`;
+      cur = m.e;
+    });
+    inner += esc(text.slice(cur, b));
+    html += `<p class="${inSample(a, b) ? "sample" : ""}" data-p="${pi + 1}">${inner.replace(/\n/g, "<br>")}</p>`;
+  });
+  const story = document.getElementById("story");
+  story.innerHTML = html;
+
+  // controls
+  const counts = {};
+  M.forEach((m) => (counts[m.dim] = (counts[m.dim] || 0) + 1));
+  document.getElementById("dim-filters").innerHTML = DIM_KEYS.map((d) =>
+    `<label class="d-${d}" style="--c:var(${DIMS[d].v})"><input type="checkbox" value="${d}" checked> ${DIMS[d].label}<span class="n">${counts[d]}</span></label>`).join("");
+  const subSel = document.getElementById("sub-filter");
+  subSel.innerHTML += D.dimensions.map((d) => `<optgroup label="${d.label}">${d.subs.map((s) => `<option value="${s}">${subLabel(s)}</option>`).join("")}</optgroup>`).join("");
+  document.getElementById("seg-nav").innerHTML = D.segments.map((s) => `<li><a href="#seg-${s.n}"><b>${s.n}</b><span>${esc(s.note.split(";")[0].split(":")[0])}</span></a></li>`).join("");
+
+  const marks = [...story.querySelectorAll("mark.hl")];
+  function apply() {
+    const on = new Set([...document.querySelectorAll("#dim-filters input:checked")].map((i) => i.value));
+    const sub = subSel.value;
+    let shown = 0;
+    const mm = document.getElementById("minimap");
+    mm.innerHTML = "";
+    marks.forEach((el) => {
+      const ok = on.has(el.dataset.dim) && (!sub || el.dataset.sub === sub);
+      el.classList.toggle("dim-off", !ok);
+      if (ok) {
+        shown++;
+        const m = M[+el.dataset.i];
+        const i = document.createElement("i");
+        i.style.left = (100 * m.s / D.meta.chars) + "%";
+        i.style.setProperty("--c", `var(${DIMS[m.dim].v})`);
+        mm.appendChild(i);
+      }
+    });
+    document.getElementById("shown-count").textContent = `${shown} of ${M.length} matches shown`;
+  }
+  document.querySelectorAll("#dim-filters input").forEach((i) => i.addEventListener("change", apply));
+  subSel.addEventListener("change", apply);
+  document.getElementById("show-sample").addEventListener("change", (e) => story.classList.toggle("no-sample", !e.target.checked));
+  apply();
+
+  marks.forEach((el) => bindTip(el, () => {
+    if (el.classList.contains("dim-off")) return "Hidden by the current filter";
+    const m = M[+el.dataset.i];
+    return `<b>${DIMS[m.dim].label}</b><br>${subLabel(m.sub)}<br>Segment ${m.seg}${m.dlg ? " · inside dialogue" : ""}${m.inSample ? " · in a sampled block" : ""}`;
+  }));
+
+  // deep link from charts: reader.html#m12
+  function focusHash() {
+    const id = location.hash.slice(1);
+    if (!/^m\d+$/.test(id)) return;
+    const el = document.getElementById(id);
+    if (!el) return;
+    marks.forEach((x) => x.classList.remove("focus"));
+    el.classList.add("focus");
+    el.scrollIntoView({ block: "center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    el.focus({ preventScroll: true });
+  }
+  window.addEventListener("hashchange", focusHash);
+  setTimeout(focusHash, 60);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Extraction · Reading the Magic Casket</title>
+<meta name="description" content="The LLM extraction prompt, the model run, verification of every phrase, and the resulting theme dictionary (Theme_JSON.py) for The Magic Casket.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Instrument+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-head"></header>
+
+<main id="main" class="wrap">
+  <header class="page-title">
+    <p class="kicker">Steps 4 and 5</p>
+    <h1>Asking a machine to copy, not to interpret</h1>
+    <p class="lede">The prompt asks a language model for exact phrases sorted into the researcher's categories, and nothing else. Every phrase it returned was then checked against the text before it was allowed to count.</p>
+  </header>
+
+  <section class="sec" id="prompt" aria-labelledby="h-prompt">
+    <p class="sec-num">Step 4</p>
+    <div class="with-notes">
+      <h2 id="h-prompt">The extraction prompt</h2>
+      <aside class="note">
+        <p><b>Model prompt followed</b><br><a href="https://github.com/SouravGhosh-digital-humanities/Wifes_Letter_JSON_themes/blob/main/prompt.txt" target="_blank" rel="noopener">prompt.txt</a> from the Wife's Letter project.</p>
+        <p><b>Files</b><br><a href="#" data-file="prompt.txt">prompt.txt</a><br><a href="#" data-file="full_prompt.txt">full_prompt.txt</a> (with the story inserted)</p>
+      </aside>
+      <div class="prose">
+        <p>The prompt carries the research question and claim, so that the model knows what the phrases are for, but it gives the model no room to argue. Its design choices are deliberate.</p>
+        <ul>
+          <li><b>Exact copying.</b> Phrases must appear in the passage word for word. A paraphrase cannot be checked; a copy can.</li>
+          <li><b>Shortest meaningful phrase.</b> Keeps matches precise and stops a single long sentence from standing in for several ideas.</li>
+          <li><b>One sub-type per phrase.</b> Forces a decision, so that counts per category do not overlap.</li>
+          <li><b>Empty lists allowed.</b> The model is told not to force evidence into a category, which reduces invented matches.</li>
+          <li><b>Narration and dialogue.</b> The model is warned not to confuse them. Much of this story is told inside quotation marks by Brodribb and Thorndyke, so the distinction is measured afterwards on the <a href="analysis.html#voice">Analysis</a> page.</li>
+          <li><b>JSON only.</b> A fixed structure that a script can read without cleaning.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="code-head" style="margin-top:22px"><span>prompt.txt</span><button class="btn ghost" id="copy-prompt" data-label="Copy prompt" type="button">Copy prompt</button></div>
+    <pre class="code" id="prompt-text"></pre>
+  </section>
+
+  <section class="sec" id="model" aria-labelledby="h-model">
+    <div class="with-notes">
+      <h2 id="h-model">The model run</h2>
+      <aside class="note">
+        <p><b>Files</b><br><a href="#" data-file="raw_llm_output.json">raw_llm_output.json</a><br><a href="#" data-file="llm_output.json">llm_output.json</a><br><a href="#" data-file="extraction_README.md">extraction_README.md</a></p>
+      </aside>
+      <div class="prose">
+        <table class="t" style="margin-bottom:20px">
+          <tbody>
+            <tr><th>Model</th><td>Claude (Anthropic), claude.ai chat</td></tr>
+            <tr><th>Date</th><td>5 November 2026</td></tr>
+            <tr><th>Input</th><td>The full prompt with the complete story, 9,122 words, in a single pass</td></tr>
+            <tr><th>Output</th><td>JSON, 4 dimensions × 3 sub-types, 131 phrases</td></tr>
+          </tbody>
+        </table>
+        <p>The brief preferred a specialised local model. A hosted chat model was used instead, and that has consequences worth stating. A hosted model can change between versions, so the same prompt may not return the same list next year. To make the result checkable anyway, the exact prompt and the untouched answer are both stored in the repository, and every downstream number is computed from the stored answer, not from a new run. The model's role was limited to proposing phrases; whether they count was decided by string verification and by the researcher.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="verify" aria-labelledby="h-verify">
+    <div class="with-notes">
+      <h2 id="h-verify">Verification</h2>
+      <aside class="note">
+        <p><b>Files</b><br><a href="#" data-file="phrase_audit.csv">phrase_audit.csv</a><br><a href="#" data-file="removed_phrases.csv">removed_phrases.csv</a></p>
+        <p><b>Stoplist for matching:</b> “at present”</p>
+      </aside>
+      <div class="prose">
+        <p>Each of the 131 phrases went through four checks before it was counted:</p>
+        <ol>
+          <li>It occurs in the story after normalising Unicode, letter case and whitespace.</li>
+          <li>It matches as a whole phrase, not inside a longer word.</li>
+          <li>It is not listed under more than one category.</li>
+          <li>It is not on the researcher's rejection list.</li>
+        </ol>
+        <p>All 131 passed the first check: the model invented nothing. No phrase was rejected by the researcher. Three phrases are present in the text but add no separate count, because every occurrence sits inside a longer extracted phrase and the matcher counts the longer one. That leaves <b>128 phrases</b> producing <b>154 occurrences</b>.</p>
+      </div>
+    </div>
+    <div class="tbl-wrap" style="margin-top:14px">
+      <table class="t">
+        <thead><tr><th>Phrase present but not counted</th><th>Sub-type</th><th>Absorbed by</th></tr></thead>
+        <tbody>
+          <tr><td class="ph">handing to the owner the full amount</td><td><span class="dim d-objects_and_material_value">ownership and exchange</span></td><td class="ph">the full amount at which he valued them (the two phrases overlap in “handing to the owner the full amount at which he valued them”)</td></tr>
+          <tr><td class="ph">common white-metal casting</td><td><span class="dim d-investigation_and_observation">physical observation</span></td><td class="ph">the thing, itself, was a common white-metal casting</td></tr>
+          <tr><td class="ph">faint relief on the face</td><td><span class="dim d-objects_and_material_value">appearance and material</span></td><td class="ph">the result is that the act of polishing causes the design to appear in faint relief on the face</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="ui small muted prose" style="margin-top:12px">Verification proves a phrase exists, not that it was put in the right category. Some placements are arguable; for example, “smallish, gentlemanly-looking man” is filed as neutral physical observation, though in context it is the narrator's racial guess. The <a href="interpretation.html#orientalism">interpretation</a> returns to this.</p>
+  </section>
+
+  <section class="sec" id="dictionary" aria-labelledby="h-dict">
+    <p class="sec-num">Step 5</p>
+    <h2 id="h-dict">The theme dictionary</h2>
+    <div class="prose"><p>The verified phrases are stored in <code>Theme_JSON.py</code> in the author-annotated format of the model project: one Python dictionary whose keys pair a dimension with a sub-type. Browse it below, with the number of times each phrase occurs in the story.</p></div>
+    <div class="filters">
+      <label class="ui" for="q">Search</label>
+      <input type="search" id="q" placeholder="Search phrases, for example pearls">
+      <select id="fdim" aria-label="Filter by theme"><option value="">All four themes</option></select>
+      <select id="fsort" aria-label="Sort"><option value="dict">Dictionary order</option><option value="count">Most frequent first</option><option value="az">A to Z</option></select>
+      <span class="count" id="dict-count"></span>
+    </div>
+    <div class="tbl-wrap" style="max-height:620px;overflow:auto;border-bottom:1px solid var(--rule)"><table class="t" id="dict-table"><thead><tr><th>Phrase</th><th>Theme</th><th>Sub-type</th><th class="r">In story</th></tr></thead><tbody></tbody></table></div>
+
+    <div class="code-head" style="margin-top:36px"><span>Theme_JSON.py</span><span style="display:flex;gap:8px"><button class="btn ghost" id="copy-py" data-label="Copy file" type="button">Copy file</button><a class="btn ghost" href="#" data-file="Theme_JSON.py" target="_blank" rel="noopener">Open on GitHub</a></span></div>
+    <pre class="code" id="py-text"></pre>
+  </section>
+
+  <nav class="next-prev" aria-label="Pages">
+    <a href="method.html"><span>Previous</span><b>Method</b></a>
+    <a class="nx" href="analysis.html"><span>Next</span><b>Analysis</b></a>
+  </nav>
+</main>
+
+<footer id="site-foot"></footer>
+<script src="casket-data.js"></script>
+<script src="site.js"></script>
+<script>
+  document.querySelectorAll("[data-file]").forEach((a) => { a.href = fileUrl(a.dataset.file); a.target = "_blank"; a.rel = "noopener"; });
+
+  // prompt with headings picked out
+  const P = window.CASKET.files.prompt;
+  document.getElementById("prompt-text").innerHTML = esc(P)
+    .replace(/^([A-Z][A-Z ]+:)$/gm, '<span class="h">$1</span>')
+    .replace(/(\{\{PASSAGE\}\})/g, '<span class="k">$1</span>');
+  copyButton(document.getElementById("copy-prompt"), () => P);
+
+  // python highlight
+  const PY = window.CASKET.files.themeJson;
+  document.getElementById("py-text").innerHTML = PY.split("\n").map((line) => {
+    if (/^\s*#/.test(line)) return `<span class="c">${esc(line)}</span>`;
+    return esc(line)
+      .replace(/(&#39;[^]*?&#39;|&quot;[^]*?&quot;)/g, '<span class="s">$1</span>')
+      .replace(/^(themes)/, '<span class="k">$1</span>');
+  }).join("\n");
+  copyButton(document.getElementById("copy-py"), () => PY);
+
+  // dictionary browser
+  const rows = window.CASKET.dictionary.map((r, i) => ({ ...r, i }));
+  const fdim = document.getElementById("fdim");
+  fdim.innerHTML += DIM_KEYS.map((k) => `<option value="${k}">${DIMS[k].label}</option>`).join("");
+  function draw() {
+    const q = document.getElementById("q").value.trim().toLowerCase();
+    const d = fdim.value, sort = document.getElementById("fsort").value;
+    let list = rows.filter((r) => (!d || r.dim === d) && (!q || r.item.toLowerCase().includes(q) || r.sub.includes(q)));
+    if (sort === "count") list = [...list].sort((a, b) => b.n - a.n || a.i - b.i);
+    if (sort === "az") list = [...list].sort((a, b) => a.item.localeCompare(b.item));
+    document.querySelector("#dict-table tbody").innerHTML = list.map((r) =>
+      `<tr><td class="ph">${esc(r.item)}</td><td><span class="dim d-${r.dim}">${DIMS[r.dim].short}</span></td><td>${subLabel(r.sub)}</td><td class="r">${r.n || '<span class="muted" title="present, counted under a longer phrase">0*</span>'}</td></tr>`).join("") ||
+      `<tr><td colspan="4" class="muted">No phrase matches “${esc(q)}”. Try a shorter word, or choose All four themes.</td></tr>`;
+    document.getElementById("dict-count").textContent = `${list.length} of ${rows.length} phrases`;
+  }
+  ["q", "fdim", "fsort"].forEach((id) => document.getElementById(id).addEventListener("input", draw));
+  draw();
+</script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading the Magic Casket</title>
+<meta name="description" content="A synthetic reading of R. Austin Freeman's detective story The Magic Casket: partial reading, LLM-assisted thematic extraction, visualisation and critical interpretation. MA Digital Humanities project, IIT (ISM) Dhanbad.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Instrument+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-head"></header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div>
+        <p class="credit">A synthetic reading of R. Austin Freeman's “The Magic Casket”</p>
+        <h1 id="hero-title">Reading the Magic Casket</h1>
+        <p class="lede">Dr Thorndyke throws a beam of light on the polished base of a cheap casket, and a message that no eye could see appears on a sheet of paper. This project does something similar to the story. A partial reading, an LLM-assisted extraction and a set of counts bring out a pattern that one ordinary reading passes over.</p>
+        <p class="meta">Rupesh Rajak, MA Digital Humanities and Social Sciences<br>Indian Institute of Technology (Indian School of Mines) Dhanbad, Monsoon Semester 2026</p>
+      </div>
+
+      <div>
+        <div class="mirror-stage" id="mirror">
+          <svg viewBox="0 0 560 400" role="img" aria-labelledby="mirror-desc">
+            <desc id="mirror-desc">A lamp shines a beam onto the polished bronze base of the casket. The reflected light falls on a sheet of white paper, where five faint words appear: Pearls, Pump, Jokkis, Fields, London.</desc>
+            <defs>
+              <radialGradient id="bronze" cx="38%" cy="34%" r="75%">
+                <stop offset="0" stop-color="#d9c08a"/><stop offset=".45" stop-color="#8f6a35"/><stop offset="1" stop-color="#3b2a17"/>
+              </radialGradient>
+              <radialGradient id="patch" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#fffdf2" stop-opacity="1"/><stop offset=".72" stop-color="#fff4d1" stop-opacity=".9"/><stop offset="1" stop-color="#fff4d1" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="beamIn" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#fff4d1" stop-opacity=".55"/><stop offset="1" stop-color="#fff4d1" stop-opacity=".18"/>
+              </linearGradient>
+              <linearGradient id="beamOut" x1="0" y1="1" x2="1" y2="0">
+                <stop offset="0" stop-color="#fff4d1" stop-opacity=".22"/><stop offset="1" stop-color="#fff4d1" stop-opacity=".5"/>
+              </linearGradient>
+            </defs>
+
+            <!-- sheet of white paper -->
+            <g transform="translate(352 34) rotate(3)">
+              <rect width="178" height="300" fill="#e9e6dc" opacity=".14"/>
+              <rect width="178" height="300" fill="none" stroke="#e9e6dc" stroke-opacity=".45"/>
+            </g>
+            <!-- condenser lamp -->
+            <g transform="translate(26 40)">
+              <rect x="0" y="6" width="42" height="30" rx="3" fill="#2a3142" stroke="#5b6478"/>
+              <circle cx="50" cy="21" r="12" fill="#3a4357" stroke="#7d869a"/>
+              <circle cx="50" cy="21" r="6" fill="#fff4d1" opacity=".8"/>
+            </g>
+
+            <g class="beam">
+              <polygon points="76,52 76,70 196,300 150,212" fill="url(#beamIn)"/>
+              <polygon points="150,212 196,300 452,316 450,64" fill="url(#beamOut)"/>
+            </g>
+
+            <!-- casket base: the Shakudo mirror, seen from below -->
+            <g transform="translate(172 258)">
+              <ellipse rx="66" ry="66" fill="url(#bronze)"/>
+              <ellipse rx="66" ry="66" fill="none" stroke="#e6d4a6" stroke-opacity=".5"/>
+              <g fill="none" stroke="#2a1d10" stroke-opacity=".38" stroke-width=".9">
+                <circle r="52"/><circle r="40"/><circle r="27"/>
+                <path d="M-52 0 H52 M0 -52 V52 M-37 -37 L37 37 M-37 37 L37 -37"/>
+              </g>
+              <ellipse cx="-20" cy="-24" rx="22" ry="12" fill="#fff" opacity=".18" transform="rotate(-30 -20 -24)"/>
+            </g>
+
+            <!-- bright oval patch with the hidden words -->
+            <g transform="translate(450 190) rotate(3)">
+              <ellipse class="patch" rx="72" ry="118" fill="url(#patch)" fill-opacity="0"/>
+              <g class="patch-words" font-family="Libre Caslon Text, Georgia, serif" font-size="21" text-anchor="middle" fill="#3a2f22" stroke="#fffaf0" stroke-width="2.4" paint-order="stroke" letter-spacing=".5">
+                <text y="-62">Pearls</text>
+                <text y="-27">Pump</text>
+                <text y="8">Jokkis</text>
+                <text y="43">Fields</text>
+                <text y="78">London</text>
+              </g>
+            </g>
+
+            <g font-family="Instrument Sans, Arial, sans-serif" font-size="12" fill="#a9adb8">
+              <text x="26" y="104">condenser</text>
+              <text x="106" y="350">the casket's polished</text>
+              <text x="106" y="366">Shakudo base</text>
+              <text x="372" y="358">sheet of white paper</text>
+            </g>
+          </svg>
+        </div>
+        <div class="mirror-controls">
+          <button class="btn" id="beam-btn" type="button" aria-pressed="false">Throw the beam</button>
+          <span>Thorndyke's laboratory, after the visitors have gone</span>
+        </div>
+        <p class="mirror-quote">“On the bright oval patch on the paper could be seen the shadowy, but quite distinct, forms of five words in the Japanese character.”</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section class="sec" aria-label="Research question and claim">
+      <div class="qc">
+        <div>
+          <h2>Research question</h2>
+          <p>How does R. Austin Freeman use material clues, concealment and deductive reasoning to transform an apparently mysterious object into a source of knowledge?</p>
+        </div>
+        <div>
+          <h2>Claim tested</h2>
+          <p>The narrative moves from the observation of suspicious objects and events towards the interpretation of concealed material evidence, with Thorndyke's deductive reasoning ultimately revealing the secret of the casket.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" aria-labelledby="finding">
+      <h2 id="finding">The four themes arrive in the order the claim predicts</h2>
+      <div class="prose">
+        <p>Every tick below is one phrase the extraction found in the story, placed where it occurs. The dot under each row marks that theme's average position. Observation sits earliest, at 37% of the way through. Objects follow at 49%, concealment at 61%, and revelation at 87%, close to the last page. The claim is supported, with qualifications that the <a href="interpretation.html">interpretation</a> works through.</p>
+      </div>
+      <figure class="fig">
+        <div class="chart" data-chart="dispersion"></div>
+        <figcaption class="ui small muted">Hover or tap a tick to read the phrase; click it to open that place in the <a href="reader.html">annotated text</a>. Grey bands mark the four narrative stages.</figcaption>
+      </figure>
+      <dl class="facts" aria-label="The project at a glance">
+        <div><dt>words in the story</dt><dd class="num">9,122</dd></div>
+        <div><dt>read in the partial reading</dt><dd class="num">24%</dd></div>
+        <div><dt>phrases extracted by the LLM</dt><dd class="num">131</dd></div>
+        <div><dt>verified occurrences</dt><dd class="num">154</dd></div>
+        <div><dt>segments in four stages</dt><dd class="num">13</dd></div>
+      </dl>
+    </section>
+
+    <section class="sec" aria-labelledby="steps">
+      <h2 id="steps">Seven steps, from a quarter of the text to an argument</h2>
+      <div class="prose"><p>Synthetic reading starts by deliberately not reading the whole text. It forms a hypothesis from samples, then checks that hypothesis against the full story with a machine extraction that a human verifies, counts and interprets.</p></div>
+      <ol class="steps">
+        <li><h3>Partial reading</h3><p>Three parts of 162, 162 and 163 units; one 32-unit block read from each.</p><a href="method.html#partial">Sampled blocks</a></li>
+        <li><h3>Reflexive framing</h3><p>Positionality, a research problem, and theoretical lenses chosen before the full read.</p><a href="method.html#positionality">Positionality</a></li>
+        <li><h3>Full corpus</h3><p>The complete story uploaded and lightly normalised for matching.</p><a href="method.html#corpus">Corpus</a></li>
+        <li><h3>Extraction prompt</h3><p>Four dimensions, twelve sub-types, ten rules, JSON only.</p><a href="extraction.html#prompt">The prompt</a></li>
+        <li><h3>Theme dictionary</h3><p>131 verified phrases saved as <code>Theme_JSON.py</code>.</p><a href="extraction.html#dictionary">Dictionary</a></li>
+        <li><h3>Visualisation</h3><p>Positions, densities, stage tests and voice, drawn from 154 matches.</p><a href="analysis.html">Analysis</a></li>
+        <li><h3>Interpretation</h3><p>Evidence, thing theory, detective-fiction structure and Orientalism.</p><a href="interpretation.html">Reading</a></li>
+      </ol>
+    </section>
+
+    <section class="sec" aria-labelledby="files">
+      <h2 id="files">Files in the repository</h2>
+      <div class="prose"><p>Every step leaves a file. They are listed here in the order the work was done, and each links to the file on GitHub.</p></div>
+      <div class="tbl-wrap">
+        <table class="t files">
+          <thead><tr><th>File</th><th>Step</th><th>What it holds</th></tr></thead>
+          <tbody id="file-rows"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer id="site-foot"></footer>
+<script src="casket-data.js"></script>
+<script src="site.js"></script>
+<script src="charts.js"></script>
+<script>
+  // magic mirror: one lamp, one reveal
+  (function () {
+    const stage = document.getElementById("mirror");
+    const btn = document.getElementById("beam-btn");
+    const patch = stage.querySelector(".patch");
+    function set(on) {
+      stage.classList.toggle("lit", on);
+      patch.setAttribute("fill-opacity", on ? "1" : "0");
+      btn.setAttribute("aria-pressed", on);
+      btn.textContent = on ? "Turn the lamp off" : "Throw the beam";
+    }
+    btn.addEventListener("click", () => set(!stage.classList.contains("lit")));
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    setTimeout(() => set(true), reduce ? 0 : 900);
+  })();
+
+  const FILES = [
+    ["magic_casket.txt", "3", "The complete story, plain text, 9,122 words in 154 paragraphs."],
+    ["partial_reading.txt", "1", "Sampling method and the three blocks that were read, with the phrases marked in each."],
+    ["marked_phrase_audit.csv", "1", "Each marked phrase checked against its block."],
+    ["initial_impression.md", "2", "First impression, overall concept, positionality, research question and claim, thematic dimensions."],
+    ["prompt.txt", "4", "The extraction prompt, with a {{PASSAGE}} placeholder."],
+    ["full_prompt.txt", "4", "The same prompt with the full story inserted, exactly as sent to the model."],
+    ["raw_llm_output.json", "4", "The model's answer as received, with run metadata."],
+    ["llm_output.json", "4", "The answer as clean JSON, four dimensions by three sub-types."],
+    ["Theme_JSON.py", "5", "The verified theme dictionary in the author-annotated format."],
+    ["phrase_audit.csv", "5", "Status of all 131 phrases: 128 counted, 3 present but absorbed by longer phrases."],
+    ["removed_phrases.csv", "5", "Phrases rejected by the researcher (none)."],
+    ["matches.csv", "6", "All 154 occurrences with segment, stage, dimension and sub-type."],
+    ["dimension_counts.csv", "6", "Totals per dimension."],
+    ["subtype_counts.csv", "6", "Totals per sub-type."],
+    ["segment_dimension_counts.csv", "6", "Counts per segment and dimension."],
+    ["report.html", "6", "The interactive Plotly report exported from Google Colab."],
+    ["interpretation.md", "7", "Interpretation notes exported from Colab."],
+    ["build_site_data.py", "Site", "Rebuilds the website's data file from the files above."],
+  ];
+  document.getElementById("file-rows").innerHTML = FILES.map(([p, s, d]) =>
+    `<tr><td><a href="${fileUrl(p)}" target="_blank" rel="noopener">${p}</a></td><td>${s}</td><td>${d}</td></tr>`).join("");
+</script>
+</body>
+</html>

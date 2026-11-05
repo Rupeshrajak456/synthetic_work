@@ -1,0 +1,22 @@
+{
+    "investigation_and_observation": {
+        "physical_observation": [],
+        "suspicion_and_inquiry": [],
+        "evidence_and_inspection": []
+    },
+    "objects_and_material_value": {
+        "objects_and_possessions": [],
+        "appearance_and_material": [],
+        "ownership_and_exchange": []
+    },
+    "deception_and_concealment": {
+        "theft_and_intrusion": [],
+        "secrecy_and_hidden_information": [],
+        "misleading_appearances": []
+    },
+    "knowledge_and_revelation": {
+        "reasoning_and_deduction": [],
+        "language_and_decoding": [],
+        "discovery_and_resolution": []
+    }
+}

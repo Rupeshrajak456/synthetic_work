@@ -1,0 +1,155 @@
+segment,stage,dimension,sub,item,pos,end_pos
+1,I. Discovery and Initial Mystery,investigation_and_observation,physical_observation,unmistakable traces of having been forced open,2085,2131
+1,I. Discovery and Initial Mystery,investigation_and_observation,suspicion_and_inquiry,Apparently the bag is derelict,1789,1819
+1,I. Discovery and Initial Mystery,investigation_and_observation,physical_observation,deep shadow against the wall,1400,1428
+1,I. Discovery and Initial Mystery,investigation_and_observation,physical_observation,glare of the shop windows,686,711
+1,I. Discovery and Initial Mystery,investigation_and_observation,physical_observation,sharp and observant eyes,92,116
+1,I. Discovery and Initial Mystery,investigation_and_observation,physical_observation,dark and narrow streets,738,761
+1,I. Discovery and Initial Mystery,investigation_and_observation,evidence_and_inspection,proceeded to inspect it,1968,1991
+1,I. Discovery and Initial Mystery,objects_and_material_value,objects_and_possessions,a Chinese stoneware jar,2630,2653
+1,I. Discovery and Initial Mystery,investigation_and_observation,suspicion_and_inquiry,what is it doing here?,1571,1593
+1,I. Discovery and Initial Mystery,objects_and_material_value,objects_and_possessions,the casket,284,294
+1,I. Discovery and Initial Mystery,objects_and_material_value,objects_and_possessions,a handbag,1525,1534
+2,I. Discovery and Initial Mystery,objects_and_material_value,ownership_and_exchange,delivering the things to their owner,192,228
+2,I. Discovery and Initial Mystery,investigation_and_observation,physical_observation,looking back over their shoulders,719,752
+2,I. Discovery and Initial Mystery,investigation_and_observation,suspicion_and_inquiry,Things have been happening,1731,1757
+2,I. Discovery and Initial Mystery,objects_and_material_value,ownership_and_exchange,"her property, too",272,289
+2,I. Discovery and Initial Mystery,investigation_and_observation,physical_observation,gilt initials,314,327
+3,I. Discovery and Initial Mystery,investigation_and_observation,suspicion_and_inquiry,fitting them together in various combinations to see what general conclusion emerged,2201,2285
+3,I. Discovery and Initial Mystery,investigation_and_observation,suspicion_and_inquiry,That bag had evidently been pinched,452,487
+5,II. Investigation and Suspicion,investigation_and_observation,evidence_and_inspection,any sign of any other kind of robbery,5642,5679
+5,II. Investigation and Suspicion,investigation_and_observation,physical_observation,the body of a man lying on the floor,5316,5352
+5,II. Investigation and Suspicion,deception_and_concealment,secrecy_and_hidden_information,sealed with the owner’s seal,2317,2345
+5,II. Investigation and Suspicion,investigation_and_observation,evidence_and_inspection,Examination of the pockets,5485,5511
+5,II. Investigation and Suspicion,objects_and_material_value,ownership_and_exchange,take care of some property,1833,1859
+5,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,the man had been murdered,5401,5426
+5,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,robbery from the person,5573,5596
+5,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,a collection of pearls,1970,1992
+5,II. Investigation and Suspicion,objects_and_material_value,ownership_and_exchange,receipt for the bag,2427,2446
+5,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,a great necklace,2033,2049
+5,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the strong-room,2754,2769
+5,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,a leather bag,2278,2291
+5,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the safe,2554,2562
+5,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the safe,2983,2991
+5,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the safe,5724,5732
+5,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the safe,5799,5807
+6,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,the robbers must have known about them and traced them to the office,761,829
+6,II. Investigation and Suspicion,deception_and_concealment,secrecy_and_hidden_information,without letting her departure be known in advance,5469,5518
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,a little casket in the form of a seated figure,3745,3791
+6,II. Investigation and Suspicion,objects_and_material_value,ownership_and_exchange,sell one after another of her little treasures,2246,2292
+6,II. Investigation and Suspicion,knowledge_and_revelation,reasoning_and_deduction,clearly they had been the object of the crime,714,759
+6,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,Uyenishi disappeared completely and at once,24,67
+6,II. Investigation and Suspicion,deception_and_concealment,secrecy_and_hidden_information,full particulars of the origin of the thing,6577,6620
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,a loan exhibition of oriental works of art,6086,6128
+6,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,rooms at the hotel were raided by burglars,4961,5003
+6,II. Investigation and Suspicion,investigation_and_observation,suspicion_and_inquiry,an uncomfortable feeling of being watched,5585,5626
+6,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,a scarf or shawl was thrown over her head,8332,8373
+6,II. Investigation and Suspicion,objects_and_material_value,ownership_and_exchange,the full amount at which he valued them,1483,1522
+6,II. Investigation and Suspicion,deception_and_concealment,secrecy_and_hidden_information,the casket was in the hotel strong-room,5008,5047
+6,II. Investigation and Suspicion,deception_and_concealment,secrecy_and_hidden_information,secretly made their way to New York,5186,5221
+6,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,the bag was snatched from her hand,8428,8462
+6,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,shadowed by various undesirables,5085,5117
+6,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,charged with robbery and murder,3124,3155
+6,II. Investigation and Suspicion,objects_and_material_value,ownership_and_exchange,handed over to her the casket,4595,4624
+6,II. Investigation and Suspicion,deception_and_concealment,secrecy_and_hidden_information,with her name on the label,6529,6555
+6,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,another burglary occurred,5233,5258
+6,II. Investigation and Suspicion,deception_and_concealment,secrecy_and_hidden_information,the pearls had vanished,689,712
+6,II. Investigation and Suspicion,deception_and_concealment,secrecy_and_hidden_information,they were never traced,2542,2564
+6,II. Investigation and Suspicion,objects_and_material_value,ownership_and_exchange,as a sort of memento,4625,4645
+6,II. Investigation and Suspicion,objects_and_material_value,ownership_and_exchange,accepting liability,1275,1294
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,a little workshop,3650,3667
+6,II. Investigation and Suspicion,objects_and_material_value,ownership_and_exchange,the sole legatee,1245,1261
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the strong-room,1360,1375
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the strong-room,5935,5950
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the strong-room,7385,7400
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the necklace,2942,2954
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the casket,4173,4183
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the casket,4891,4901
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the casket,6187,6197
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the casket,6369,6379
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the casket,7281,7291
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,a handbag,6355,6364
+6,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the safe,841,849
+7,II. Investigation and Suspicion,investigation_and_observation,suspicion_and_inquiry,there is something queer about this accursed casket,702,753
+7,II. Investigation and Suspicion,investigation_and_observation,suspicion_and_inquiry,there was something more than met the eye,2272,2313
+7,II. Investigation and Suspicion,deception_and_concealment,theft_and_intrusion,the bag had been broken open and searched,81,122
+7,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the casket,1257,1267
+7,II. Investigation and Suspicion,objects_and_material_value,objects_and_possessions,the casket,2618,2628
+8,III. Examination and Deductive Reasoning,deception_and_concealment,misleading_appearances,the only piece of fine metal in it is in the part which matters least,1541,1610
+8,III. Examination and Deductive Reasoning,knowledge_and_revelation,reasoning_and_deduction,"There is an obvious anomaly, which must have some significance",2482,2544
+8,III. Examination and Deductive Reasoning,investigation_and_observation,evidence_and_inspection,the longest and most rigorous inspection of all,1020,1067
+8,III. Examination and Deductive Reasoning,investigation_and_observation,evidence_and_inspection,travelled over every part of the exterior,764,805
+8,III. Examination and Deductive Reasoning,objects_and_material_value,appearance_and_material,Shakudo—an alloy of copper and gold,1681,1716
+8,III. Examination and Deductive Reasoning,investigation_and_observation,evidence_and_inspection,scrutinized the bottom from within,869,903
+8,III. Examination and Deductive Reasoning,investigation_and_observation,evidence_and_inspection,examined the bottom from without,973,1005
+8,III. Examination and Deductive Reasoning,objects_and_material_value,appearance_and_material,etched; not engraved or chased,2098,2128
+8,III. Examination and Deductive Reasoning,deception_and_concealment,misleading_appearances,of no value as a work of art,1257,1285
+8,III. Examination and Deductive Reasoning,investigation_and_observation,evidence_and_inspection,examine it detail by detail,615,642
+8,III. Examination and Deductive Reasoning,objects_and_material_value,appearance_and_material,"a squat, shapeless figure",307,332
+8,III. Examination and Deductive Reasoning,objects_and_material_value,appearance_and_material,bronze colour is lacquer,1402,1426
+8,III. Examination and Deductive Reasoning,objects_and_material_value,appearance_and_material,"quiet, warm colouring",454,475
+8,III. Examination and Deductive Reasoning,objects_and_material_value,appearance_and_material,elaborate decoration,1931,1951
+8,III. Examination and Deductive Reasoning,objects_and_material_value,appearance_and_material,antimony alloy,1368,1382
+8,III. Examination and Deductive Reasoning,objects_and_material_value,objects_and_possessions,the casket,946,956
+8,III. Examination and Deductive Reasoning,objects_and_material_value,objects_and_possessions,the casket,1153,1163
+8,III. Examination and Deductive Reasoning,objects_and_material_value,objects_and_possessions,the casket,2055,2065
+8,III. Examination and Deductive Reasoning,objects_and_material_value,objects_and_possessions,the casket,2662,2672
+9,III. Examination and Deductive Reasoning,investigation_and_observation,physical_observation,"smallish, gentlemanly-looking man",259,292
+9,III. Examination and Deductive Reasoning,investigation_and_observation,suspicion_and_inquiry,my suspicions were confirmed,821,849
+9,III. Examination and Deductive Reasoning,objects_and_material_value,objects_and_possessions,the casket,2056,2066
+9,III. Examination and Deductive Reasoning,objects_and_material_value,objects_and_possessions,the casket,2882,2892
+10,III. Examination and Deductive Reasoning,knowledge_and_revelation,discovery_and_resolution,a leather bag secured by a string from which hung a broken seal,1614,1677
+10,III. Examination and Deductive Reasoning,deception_and_concealment,theft_and_intrusion,three men stealing round the corner,2195,2230
+10,III. Examination and Deductive Reasoning,deception_and_concealment,theft_and_intrusion,turned tail and flew like the wind,3242,3276
+10,III. Examination and Deductive Reasoning,knowledge_and_revelation,discovery_and_resolution,dragged something after it,1491,1517
+10,III. Examination and Deductive Reasoning,knowledge_and_revelation,discovery_and_resolution,It is the necklace!,1838,1857
+10,III. Examination and Deductive Reasoning,objects_and_material_value,objects_and_possessions,the bag of pearls,2291,2308
+11,IV. Revelation and Resolution,knowledge_and_revelation,discovery_and_resolution,there will be no more shadowing,504,535
+11,IV. Revelation and Resolution,knowledge_and_revelation,discovery_and_resolution,that finishes the business,476,502
+11,IV. Revelation and Resolution,knowledge_and_revelation,discovery_and_resolution,we’ve got the pearls,450,470
+12,IV. Revelation and Resolution,knowledge_and_revelation,reasoning_and_deduction,the solution of this problem is based on two well-known physical facts,142,212
+12,IV. Revelation and Resolution,objects_and_material_value,appearance_and_material,decorated on the back with chased ornament,2055,2097
+12,IV. Revelation and Resolution,objects_and_material_value,appearance_and_material,highly polished on the face,2023,2050
+12,IV. Revelation and Resolution,deception_and_concealment,misleading_appearances,the face is perfectly plain,2436,2463
+13,IV. Revelation and Resolution,deception_and_concealment,misleading_appearances,the design which would be visible in the patch of light on the wall would be a different one from that on the back of the mirror,2093,2221
+13,IV. Revelation and Resolution,knowledge_and_revelation,reasoning_and_deduction,the result is that the act of polishing causes the design to appear in faint relief on the face,892,987
+13,IV. Revelation and Resolution,knowledge_and_revelation,reasoning_and_deduction,the clear suggestion was that the casket was the vehicle of some secret message or information,2496,2590
+13,IV. Revelation and Resolution,deception_and_concealment,secrecy_and_hidden_information,etched design worked on it to hide the traces of the scraper,3791,3851
+13,IV. Revelation and Resolution,investigation_and_observation,physical_observation,the outside of the bottom was not only smooth and polished,3502,3560
+13,IV. Revelation and Resolution,deception_and_concealment,secrecy_and_hidden_information,"the message, whatever it was, had been chased on the back",3698,3755
+13,IV. Revelation and Resolution,knowledge_and_revelation,reasoning_and_deduction,almost certainly had possession of the missing pearls,2630,2683
+13,IV. Revelation and Resolution,knowledge_and_revelation,reasoning_and_deduction,the (presumed) message referred to some hiding-place,2955,3007
+13,IV. Revelation and Resolution,deception_and_concealment,misleading_appearances,"the thing, itself, was a common white-metal casting",3196,3247
+13,IV. Revelation and Resolution,investigation_and_observation,evidence_and_inspection,catching the reflection on a sheet of white paper,3993,4042
+13,IV. Revelation and Resolution,deception_and_concealment,misleading_appearances,traces of the design are completely obliterated,537,584
+13,IV. Revelation and Resolution,deception_and_concealment,secrecy_and_hidden_information,forms of five words in the Japanese character,4170,4215
+13,IV. Revelation and Resolution,objects_and_material_value,appearance_and_material,less than the hundred-thousandth of an inch,1021,1064
+13,IV. Revelation and Resolution,knowledge_and_revelation,language_and_decoding,there was no such word in the dictionary,4990,5030
+13,IV. Revelation and Resolution,knowledge_and_revelation,discovery_and_resolution,the bag of pearls had been poked into it,5741,5781
+13,IV. Revelation and Resolution,knowledge_and_revelation,reasoning_and_deduction,the result was just what I had expected,4044,4083
+13,IV. Revelation and Resolution,knowledge_and_revelation,reasoning_and_deduction,since the pearls had never been traced,2877,2915
+13,IV. Revelation and Resolution,investigation_and_observation,evidence_and_inspection,threw a strong beam of parallel light,3923,3960
+13,IV. Revelation and Resolution,deception_and_concealment,misleading_appearances,made presentable by means of lacquer,3249,3285
+13,IV. Revelation and Resolution,knowledge_and_revelation,language_and_decoding,"Pearls, Pump, Jokkis, Fields, London",5219,5255
+13,IV. Revelation and Resolution,knowledge_and_revelation,reasoning_and_deduction,there was a distinct probability,2917,2949
+13,IV. Revelation and Resolution,investigation_and_observation,evidence_and_inspection,looked it up in the dictionary,4772,4802
+13,IV. Revelation and Resolution,objects_and_material_value,ownership_and_exchange,the gifts of grateful clients,6383,6412
+13,IV. Revelation and Resolution,deception_and_concealment,misleading_appearances,totally invisible to the eye,1069,1097
+13,IV. Revelation and Resolution,knowledge_and_revelation,language_and_decoding,they did not form a sentence,4665,4693
+13,IV. Revelation and Resolution,deception_and_concealment,secrecy_and_hidden_information,the mirror held the secret,3665,3691
+13,IV. Revelation and Resolution,objects_and_material_value,appearance_and_material,"a squat, shapeless figure",6428,6453
+13,IV. Revelation and Resolution,knowledge_and_revelation,discovery_and_resolution,its sting has been drawn,6592,6616
+13,IV. Revelation and Resolution,knowledge_and_revelation,language_and_decoding,the Japanese characters,4402,4425
+13,IV. Revelation and Resolution,knowledge_and_revelation,language_and_decoding,the words were detached,4640,4663
+13,IV. Revelation and Resolution,deception_and_concealment,secrecy_and_hidden_information,temporary hiding-place,5693,5715
+13,IV. Revelation and Resolution,knowledge_and_revelation,language_and_decoding,a Japanese dictionary,4438,4459
+13,IV. Revelation and Resolution,knowledge_and_revelation,discovery_and_resolution,its magic is exploded,6618,6639
+13,IV. Revelation and Resolution,knowledge_and_revelation,discovery_and_resolution,its secret is exposed,6641,6662
+13,IV. Revelation and Resolution,knowledge_and_revelation,discovery_and_resolution,its glory departed,6668,6686
+13,IV. Revelation and Resolution,objects_and_material_value,appearance_and_material,perfectly flat,484,498
+13,IV. Revelation and Resolution,objects_and_material_value,appearance_and_material,a true mirror,3569,3582
+13,IV. Revelation and Resolution,deception_and_concealment,secrecy_and_hidden_information,scraped away,3771,3783
+13,IV. Revelation and Resolution,objects_and_material_value,objects_and_possessions,the casket,1526,1536
+13,IV. Revelation and Resolution,objects_and_material_value,objects_and_possessions,the casket,2304,2314
+13,IV. Revelation and Resolution,objects_and_material_value,objects_and_possessions,the casket,3157,3167
+13,IV. Revelation and Resolution,objects_and_material_value,objects_and_possessions,the casket,3887,3897

@@ -1,0 +1,1388 @@
+[
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "physical_observation",
+    "item": "unmistakable traces of having been forced open",
+    "pos": 2085,
+    "end_pos": 2131
+  },
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "suspicion_and_inquiry",
+    "item": "Apparently the bag is derelict",
+    "pos": 1789,
+    "end_pos": 1819
+  },
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "physical_observation",
+    "item": "deep shadow against the wall",
+    "pos": 1400,
+    "end_pos": 1428
+  },
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "physical_observation",
+    "item": "glare of the shop windows",
+    "pos": 686,
+    "end_pos": 711
+  },
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "physical_observation",
+    "item": "sharp and observant eyes",
+    "pos": 92,
+    "end_pos": 116
+  },
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "physical_observation",
+    "item": "dark and narrow streets",
+    "pos": 738,
+    "end_pos": 761
+  },
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "proceeded to inspect it",
+    "pos": 1968,
+    "end_pos": 1991
+  },
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "a Chinese stoneware jar",
+    "pos": 2630,
+    "end_pos": 2653
+  },
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "suspicion_and_inquiry",
+    "item": "what is it doing here?",
+    "pos": 1571,
+    "end_pos": 1593
+  },
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 284,
+    "end_pos": 294
+  },
+  {
+    "segment": 1,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "a handbag",
+    "pos": 1525,
+    "end_pos": 1534
+  },
+  {
+    "segment": 2,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "delivering the things to their owner",
+    "pos": 192,
+    "end_pos": 228
+  },
+  {
+    "segment": 2,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "physical_observation",
+    "item": "looking back over their shoulders",
+    "pos": 719,
+    "end_pos": 752
+  },
+  {
+    "segment": 2,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "suspicion_and_inquiry",
+    "item": "Things have been happening",
+    "pos": 1731,
+    "end_pos": 1757
+  },
+  {
+    "segment": 2,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "her property, too",
+    "pos": 272,
+    "end_pos": 289
+  },
+  {
+    "segment": 2,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "physical_observation",
+    "item": "gilt initials",
+    "pos": 314,
+    "end_pos": 327
+  },
+  {
+    "segment": 3,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "suspicion_and_inquiry",
+    "item": "fitting them together in various combinations to see what general conclusion emerged",
+    "pos": 2201,
+    "end_pos": 2285
+  },
+  {
+    "segment": 3,
+    "stage": "I. Discovery and Initial Mystery",
+    "dimension": "investigation_and_observation",
+    "sub": "suspicion_and_inquiry",
+    "item": "That bag had evidently been pinched",
+    "pos": 452,
+    "end_pos": 487
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "any sign of any other kind of robbery",
+    "pos": 5642,
+    "end_pos": 5679
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "investigation_and_observation",
+    "sub": "physical_observation",
+    "item": "the body of a man lying on the floor",
+    "pos": 5316,
+    "end_pos": 5352
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "sealed with the owner’s seal",
+    "pos": 2317,
+    "end_pos": 2345
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "Examination of the pockets",
+    "pos": 5485,
+    "end_pos": 5511
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "take care of some property",
+    "pos": 1833,
+    "end_pos": 1859
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "the man had been murdered",
+    "pos": 5401,
+    "end_pos": 5426
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "robbery from the person",
+    "pos": 5573,
+    "end_pos": 5596
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "a collection of pearls",
+    "pos": 1970,
+    "end_pos": 1992
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "receipt for the bag",
+    "pos": 2427,
+    "end_pos": 2446
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "a great necklace",
+    "pos": 2033,
+    "end_pos": 2049
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the strong-room",
+    "pos": 2754,
+    "end_pos": 2769
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "a leather bag",
+    "pos": 2278,
+    "end_pos": 2291
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the safe",
+    "pos": 2554,
+    "end_pos": 2562
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the safe",
+    "pos": 2983,
+    "end_pos": 2991
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the safe",
+    "pos": 5724,
+    "end_pos": 5732
+  },
+  {
+    "segment": 5,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the safe",
+    "pos": 5799,
+    "end_pos": 5807
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "the robbers must have known about them and traced them to the office",
+    "pos": 761,
+    "end_pos": 829
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "without letting her departure be known in advance",
+    "pos": 5469,
+    "end_pos": 5518
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "a little casket in the form of a seated figure",
+    "pos": 3745,
+    "end_pos": 3791
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "sell one after another of her little treasures",
+    "pos": 2246,
+    "end_pos": 2292
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "knowledge_and_revelation",
+    "sub": "reasoning_and_deduction",
+    "item": "clearly they had been the object of the crime",
+    "pos": 714,
+    "end_pos": 759
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "Uyenishi disappeared completely and at once",
+    "pos": 24,
+    "end_pos": 67
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "full particulars of the origin of the thing",
+    "pos": 6577,
+    "end_pos": 6620
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "a loan exhibition of oriental works of art",
+    "pos": 6086,
+    "end_pos": 6128
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "rooms at the hotel were raided by burglars",
+    "pos": 4961,
+    "end_pos": 5003
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "investigation_and_observation",
+    "sub": "suspicion_and_inquiry",
+    "item": "an uncomfortable feeling of being watched",
+    "pos": 5585,
+    "end_pos": 5626
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "a scarf or shawl was thrown over her head",
+    "pos": 8332,
+    "end_pos": 8373
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "the full amount at which he valued them",
+    "pos": 1483,
+    "end_pos": 1522
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "the casket was in the hotel strong-room",
+    "pos": 5008,
+    "end_pos": 5047
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "secretly made their way to New York",
+    "pos": 5186,
+    "end_pos": 5221
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "the bag was snatched from her hand",
+    "pos": 8428,
+    "end_pos": 8462
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "shadowed by various undesirables",
+    "pos": 5085,
+    "end_pos": 5117
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "charged with robbery and murder",
+    "pos": 3124,
+    "end_pos": 3155
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "handed over to her the casket",
+    "pos": 4595,
+    "end_pos": 4624
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "with her name on the label",
+    "pos": 6529,
+    "end_pos": 6555
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "another burglary occurred",
+    "pos": 5233,
+    "end_pos": 5258
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "the pearls had vanished",
+    "pos": 689,
+    "end_pos": 712
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "they were never traced",
+    "pos": 2542,
+    "end_pos": 2564
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "as a sort of memento",
+    "pos": 4625,
+    "end_pos": 4645
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "accepting liability",
+    "pos": 1275,
+    "end_pos": 1294
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "a little workshop",
+    "pos": 3650,
+    "end_pos": 3667
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "the sole legatee",
+    "pos": 1245,
+    "end_pos": 1261
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the strong-room",
+    "pos": 1360,
+    "end_pos": 1375
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the strong-room",
+    "pos": 5935,
+    "end_pos": 5950
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the strong-room",
+    "pos": 7385,
+    "end_pos": 7400
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the necklace",
+    "pos": 2942,
+    "end_pos": 2954
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 4173,
+    "end_pos": 4183
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 4891,
+    "end_pos": 4901
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 6187,
+    "end_pos": 6197
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 6369,
+    "end_pos": 6379
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 7281,
+    "end_pos": 7291
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "a handbag",
+    "pos": 6355,
+    "end_pos": 6364
+  },
+  {
+    "segment": 6,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the safe",
+    "pos": 841,
+    "end_pos": 849
+  },
+  {
+    "segment": 7,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "investigation_and_observation",
+    "sub": "suspicion_and_inquiry",
+    "item": "there is something queer about this accursed casket",
+    "pos": 702,
+    "end_pos": 753
+  },
+  {
+    "segment": 7,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "investigation_and_observation",
+    "sub": "suspicion_and_inquiry",
+    "item": "there was something more than met the eye",
+    "pos": 2272,
+    "end_pos": 2313
+  },
+  {
+    "segment": 7,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "the bag had been broken open and searched",
+    "pos": 81,
+    "end_pos": 122
+  },
+  {
+    "segment": 7,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 1257,
+    "end_pos": 1267
+  },
+  {
+    "segment": 7,
+    "stage": "II. Investigation and Suspicion",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 2618,
+    "end_pos": 2628
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "deception_and_concealment",
+    "sub": "misleading_appearances",
+    "item": "the only piece of fine metal in it is in the part which matters least",
+    "pos": 1541,
+    "end_pos": 1610
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "knowledge_and_revelation",
+    "sub": "reasoning_and_deduction",
+    "item": "There is an obvious anomaly, which must have some significance",
+    "pos": 2482,
+    "end_pos": 2544
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "the longest and most rigorous inspection of all",
+    "pos": 1020,
+    "end_pos": 1067
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "travelled over every part of the exterior",
+    "pos": 764,
+    "end_pos": 805
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "Shakudo—an alloy of copper and gold",
+    "pos": 1681,
+    "end_pos": 1716
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "scrutinized the bottom from within",
+    "pos": 869,
+    "end_pos": 903
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "examined the bottom from without",
+    "pos": 973,
+    "end_pos": 1005
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "etched; not engraved or chased",
+    "pos": 2098,
+    "end_pos": 2128
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "deception_and_concealment",
+    "sub": "misleading_appearances",
+    "item": "of no value as a work of art",
+    "pos": 1257,
+    "end_pos": 1285
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "examine it detail by detail",
+    "pos": 615,
+    "end_pos": 642
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "a squat, shapeless figure",
+    "pos": 307,
+    "end_pos": 332
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "bronze colour is lacquer",
+    "pos": 1402,
+    "end_pos": 1426
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "quiet, warm colouring",
+    "pos": 454,
+    "end_pos": 475
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "elaborate decoration",
+    "pos": 1931,
+    "end_pos": 1951
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "antimony alloy",
+    "pos": 1368,
+    "end_pos": 1382
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 946,
+    "end_pos": 956
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 1153,
+    "end_pos": 1163
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 2055,
+    "end_pos": 2065
+  },
+  {
+    "segment": 8,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 2662,
+    "end_pos": 2672
+  },
+  {
+    "segment": 9,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "investigation_and_observation",
+    "sub": "physical_observation",
+    "item": "smallish, gentlemanly-looking man",
+    "pos": 259,
+    "end_pos": 292
+  },
+  {
+    "segment": 9,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "investigation_and_observation",
+    "sub": "suspicion_and_inquiry",
+    "item": "my suspicions were confirmed",
+    "pos": 821,
+    "end_pos": 849
+  },
+  {
+    "segment": 9,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 2056,
+    "end_pos": 2066
+  },
+  {
+    "segment": 9,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 2882,
+    "end_pos": 2892
+  },
+  {
+    "segment": 10,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "a leather bag secured by a string from which hung a broken seal",
+    "pos": 1614,
+    "end_pos": 1677
+  },
+  {
+    "segment": 10,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "three men stealing round the corner",
+    "pos": 2195,
+    "end_pos": 2230
+  },
+  {
+    "segment": 10,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "deception_and_concealment",
+    "sub": "theft_and_intrusion",
+    "item": "turned tail and flew like the wind",
+    "pos": 3242,
+    "end_pos": 3276
+  },
+  {
+    "segment": 10,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "dragged something after it",
+    "pos": 1491,
+    "end_pos": 1517
+  },
+  {
+    "segment": 10,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "It is the necklace!",
+    "pos": 1838,
+    "end_pos": 1857
+  },
+  {
+    "segment": 10,
+    "stage": "III. Examination and Deductive Reasoning",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the bag of pearls",
+    "pos": 2291,
+    "end_pos": 2308
+  },
+  {
+    "segment": 11,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "there will be no more shadowing",
+    "pos": 504,
+    "end_pos": 535
+  },
+  {
+    "segment": 11,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "that finishes the business",
+    "pos": 476,
+    "end_pos": 502
+  },
+  {
+    "segment": 11,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "we’ve got the pearls",
+    "pos": 450,
+    "end_pos": 470
+  },
+  {
+    "segment": 12,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "reasoning_and_deduction",
+    "item": "the solution of this problem is based on two well-known physical facts",
+    "pos": 142,
+    "end_pos": 212
+  },
+  {
+    "segment": 12,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "decorated on the back with chased ornament",
+    "pos": 2055,
+    "end_pos": 2097
+  },
+  {
+    "segment": 12,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "highly polished on the face",
+    "pos": 2023,
+    "end_pos": 2050
+  },
+  {
+    "segment": 12,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "misleading_appearances",
+    "item": "the face is perfectly plain",
+    "pos": 2436,
+    "end_pos": 2463
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "misleading_appearances",
+    "item": "the design which would be visible in the patch of light on the wall would be a different one from that on the back of the mirror",
+    "pos": 2093,
+    "end_pos": 2221
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "reasoning_and_deduction",
+    "item": "the result is that the act of polishing causes the design to appear in faint relief on the face",
+    "pos": 892,
+    "end_pos": 987
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "reasoning_and_deduction",
+    "item": "the clear suggestion was that the casket was the vehicle of some secret message or information",
+    "pos": 2496,
+    "end_pos": 2590
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "etched design worked on it to hide the traces of the scraper",
+    "pos": 3791,
+    "end_pos": 3851
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "investigation_and_observation",
+    "sub": "physical_observation",
+    "item": "the outside of the bottom was not only smooth and polished",
+    "pos": 3502,
+    "end_pos": 3560
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "the message, whatever it was, had been chased on the back",
+    "pos": 3698,
+    "end_pos": 3755
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "reasoning_and_deduction",
+    "item": "almost certainly had possession of the missing pearls",
+    "pos": 2630,
+    "end_pos": 2683
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "reasoning_and_deduction",
+    "item": "the (presumed) message referred to some hiding-place",
+    "pos": 2955,
+    "end_pos": 3007
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "misleading_appearances",
+    "item": "the thing, itself, was a common white-metal casting",
+    "pos": 3196,
+    "end_pos": 3247
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "catching the reflection on a sheet of white paper",
+    "pos": 3993,
+    "end_pos": 4042
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "misleading_appearances",
+    "item": "traces of the design are completely obliterated",
+    "pos": 537,
+    "end_pos": 584
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "forms of five words in the Japanese character",
+    "pos": 4170,
+    "end_pos": 4215
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "less than the hundred-thousandth of an inch",
+    "pos": 1021,
+    "end_pos": 1064
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "language_and_decoding",
+    "item": "there was no such word in the dictionary",
+    "pos": 4990,
+    "end_pos": 5030
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "the bag of pearls had been poked into it",
+    "pos": 5741,
+    "end_pos": 5781
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "reasoning_and_deduction",
+    "item": "the result was just what I had expected",
+    "pos": 4044,
+    "end_pos": 4083
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "reasoning_and_deduction",
+    "item": "since the pearls had never been traced",
+    "pos": 2877,
+    "end_pos": 2915
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "threw a strong beam of parallel light",
+    "pos": 3923,
+    "end_pos": 3960
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "misleading_appearances",
+    "item": "made presentable by means of lacquer",
+    "pos": 3249,
+    "end_pos": 3285
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "language_and_decoding",
+    "item": "Pearls, Pump, Jokkis, Fields, London",
+    "pos": 5219,
+    "end_pos": 5255
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "reasoning_and_deduction",
+    "item": "there was a distinct probability",
+    "pos": 2917,
+    "end_pos": 2949
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "investigation_and_observation",
+    "sub": "evidence_and_inspection",
+    "item": "looked it up in the dictionary",
+    "pos": 4772,
+    "end_pos": 4802
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "ownership_and_exchange",
+    "item": "the gifts of grateful clients",
+    "pos": 6383,
+    "end_pos": 6412
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "misleading_appearances",
+    "item": "totally invisible to the eye",
+    "pos": 1069,
+    "end_pos": 1097
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "language_and_decoding",
+    "item": "they did not form a sentence",
+    "pos": 4665,
+    "end_pos": 4693
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "the mirror held the secret",
+    "pos": 3665,
+    "end_pos": 3691
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "a squat, shapeless figure",
+    "pos": 6428,
+    "end_pos": 6453
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "its sting has been drawn",
+    "pos": 6592,
+    "end_pos": 6616
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "language_and_decoding",
+    "item": "the Japanese characters",
+    "pos": 4402,
+    "end_pos": 4425
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "language_and_decoding",
+    "item": "the words were detached",
+    "pos": 4640,
+    "end_pos": 4663
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "temporary hiding-place",
+    "pos": 5693,
+    "end_pos": 5715
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "language_and_decoding",
+    "item": "a Japanese dictionary",
+    "pos": 4438,
+    "end_pos": 4459
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "its magic is exploded",
+    "pos": 6618,
+    "end_pos": 6639
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "its secret is exposed",
+    "pos": 6641,
+    "end_pos": 6662
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "knowledge_and_revelation",
+    "sub": "discovery_and_resolution",
+    "item": "its glory departed",
+    "pos": 6668,
+    "end_pos": 6686
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "perfectly flat",
+    "pos": 484,
+    "end_pos": 498
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "appearance_and_material",
+    "item": "a true mirror",
+    "pos": 3569,
+    "end_pos": 3582
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "deception_and_concealment",
+    "sub": "secrecy_and_hidden_information",
+    "item": "scraped away",
+    "pos": 3771,
+    "end_pos": 3783
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 1526,
+    "end_pos": 1536
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 2304,
+    "end_pos": 2314
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 3157,
+    "end_pos": 3167
+  },
+  {
+    "segment": 13,
+    "stage": "IV. Revelation and Resolution",
+    "dimension": "objects_and_material_value",
+    "sub": "objects_and_possessions",
+    "item": "the casket",
+    "pos": 3887,
+    "end_pos": 3897
+  }
+]

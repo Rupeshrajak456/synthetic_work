@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Method · Reading the Magic Casket</title>
+<meta name="description" content="Partial reading, researcher positionality, the thematic framework and the theoretical lenses behind the synthetic reading of The Magic Casket.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Instrument+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-head"></header>
+
+<main id="main" class="wrap">
+  <header class="page-title">
+    <p class="kicker">Steps 1 to 3</p>
+    <h1>Reading a quarter of the story first</h1>
+    <p class="lede">Before the whole text was read, three sampled blocks shaped a first impression, a research problem and a framework. This page records that sequence, including where the first impression was right and where it had to change.</p>
+  </header>
+
+  <!-- ============================================================ 1 -->
+  <section class="sec" id="partial" aria-labelledby="h-partial">
+    <p class="sec-num">Step 1</p>
+    <div class="with-notes">
+      <h2 id="h-partial">Partial reading</h2>
+      <aside class="note">
+        <p><b>Sampling rule.</b> Split the text into equal parts, then read a block of about 20% of each part: the first, the middle, the last, or a random block.</p>
+        <p><b>Reproducible.</b> The middle block was chosen at random with seed 42, so anyone running the notebook again reads the same lines.</p>
+        <p>Model followed: <a href="https://github.com/SouravGhosh-digital-humanities/Wifes_Letter_JSON_themes/blob/main/partial_reading.txt" target="_blank" rel="noopener">partial_reading.txt</a> from the Wife's Letter project.</p>
+      </aside>
+      <div class="prose">
+        <p>The story was split into 487 sentence-like units, breaking at line ends and after full stops, question marks and exclamation marks. The units were cut into three parts of 162, 162 and 163. From each part one block of 32 units was read: the opening block of Part 1, a random block from Part 2, and the closing block of Part 3. Together these came to <span class="num">2,169</span> of the story's <span class="num">9,122</span> words, about 24%.</p>
+        <p>While reading, I marked phrases that seemed to carry the story's concerns. Each one was then checked against its block, so that nothing was recorded from memory or from outside the sample. All 30 marked phrases were found in their blocks.</p>
+      </div>
+    </div>
+
+    <figure class="fig">
+      <div class="fig-head"><h3>What the partial reading saw, against what the full extraction later found</h3><span class="fig-no">Figure M1</span></div>
+      <p class="how">The bar is the whole story divided into its three parts; gold blocks are the passages read. The ticks underneath are the 154 phrase occurrences found later in the complete text.</p>
+      <div class="chart" data-chart="partial"></div>
+      <figcaption><b>The sample was richer than its size.</b> The three blocks hold 24% of the words but 68 of the 154 later matches (44%). In a detective story the opening sets out the clues and the ending explains them, so a first-and-last sampling rule lands on the densest passages. This helped the hypothesis, and it also means the sample over-represents the genre's two most self-conscious moments. The long middle of Brodribb's narration is where the partial reading saw least.</figcaption>
+    </figure>
+
+    <div id="blocks"></div>
+  </section>
+
+  <!-- ============================================================ 2 -->
+  <section class="sec" id="impression" aria-labelledby="h-impression">
+    <p class="sec-num">Step 2, part one</p>
+    <div class="with-notes">
+      <h2 id="h-impression">First impression</h2>
+      <aside class="note">
+        <p><b>Source file</b><br><a href="#" data-file="initial_impression.md">initial_impression.md</a></p>
+      </aside>
+      <div class="prose">
+        <p>The sampled passages suggested a story about observation, mystery and the interpretation of physical evidence. The opening block introduces uncertainty through an abandoned handbag that has been forced open. The random middle block brings in the casket, the missing pearls and a run of burglaries. The closing block turns to the physical construction of the casket and a concealed message. Across the three, Thorndyke's examination connects objects and events that at first seem separate.</p>
+        <p>The narrative appeared to move from uncertainty and suspicion towards explanation and discovery. That was an impression from samples, not a conclusion about the whole story, and it was written down before the full read so that it could later be tested rather than remembered.</p>
+        <blockquote>One overall concept: <b>material evidence and deductive revelation.</b> Ordinary physical objects can carry hidden information that becomes meaningful through observation, examination and interpretation.<cite>Initial impression, recorded after the partial reading</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="positionality" aria-labelledby="h-pos">
+    <p class="sec-num">Step 2, part two</p>
+    <div class="with-notes">
+      <h2 id="h-pos">Positionality and reflexivity</h2>
+      <aside class="note">
+        <p><b>Why this matters here.</b> A thematic dictionary is a set of the researcher's decisions. Naming the reader who made them is part of the method, not an apology for it.</p>
+      </aside>
+      <div class="prose">
+        <p>I came to the story through literary and analytical methods, and with a training in history. My first attention goes to narrative events, characters' actions and physical objects. That directs me towards evidence, observation and reasoning, which is also the story's own preferred way of knowing. The risk is obvious: a reader who shares the detective's method may simply reproduce the detective's conclusions.</p>
+        <p>I am an Indian reader of a British story written in the 1920s, in which Japanese characters are watched, suspected and described from outside. The narrator, Dr Jervis, reports what he sees and what he infers, and the two are not always distinguished. Two well-dressed men walking quickly become suspects because they are Japanese; Miss Bonney says she is “still haunted by Japanese”; a solicitor reasons that an attacker who did not smash the crockery cannot have been British. I therefore separate the evidence the story presents from the narrator's interpretation of people, and I treat the categories I built for the machine as open to the same suspicion.</p>
+        <p>The extraction was done with a general-purpose chat model rather than the specialised local model the brief preferred. That choice was practical. Its effects on reproducibility are recorded on the <a href="extraction.html#model">Extraction</a> page rather than hidden.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="problem" aria-labelledby="h-problem">
+    <p class="sec-num">Step 2, part three</p>
+    <h2 id="h-problem">Research problem, question and claim</h2>
+    <div class="prose">
+      <p>The selected passages suggested a relationship between material objects and the knowledge that can be drawn from them. The story's title object is cheap and ugly, yet people follow it from California to London to steal it. The problem is how a text turns such an object into a source of knowledge, and what kind of knowledge, and whose, that turns out to be.</p>
+    </div>
+    <div class="qc" style="margin-top:22px">
+      <div><h2>Research question</h2><p>How does R. Austin Freeman use material clues, concealment and deductive reasoning to transform an apparently mysterious object into a source of knowledge?</p></div>
+      <div><h2>Claim</h2><p>I hypothesise that the narrative moves from the observation of suspicious objects and events towards the interpretation of concealed material evidence, with Thorndyke's deductive reasoning ultimately revealing the secret of the casket.</p></div>
+    </div>
+  </section>
+
+  <section class="sec" id="framework" aria-labelledby="h-frame">
+    <h2 id="h-frame">Thematic framework: four dimensions, twelve sub-types</h2>
+    <div class="prose"><p>The claim describes a movement, so the four dimensions are arranged to trace it: from looking, through the object and its concealment, to knowing. Each dimension has three sub-types so that the extraction can say not only that a theme is present but in what form.</p></div>
+    <div class="framework" id="framework-grid"></div>
+  </section>
+
+  <section class="sec" id="lenses" aria-labelledby="h-lenses">
+    <h2 id="h-lenses">Theoretical lenses</h2>
+    <div class="prose"><p>The brief asks for a framework suited to the problem. This story is about evidence, objects and secrets, and it is also about a British detective decoding a Japanese message. The lenses below cover both sides, and each is matched to a dimension it helps to read.</p></div>
+    <dl class="lenses">
+      <div><dt>The evidential paradigm<small>Carlo Ginzburg, “Clues” (1979)</small></dt><dd>Ginzburg traces a mode of knowledge that reasons from small, involuntary traces to hidden causes, shared by the art connoisseur, the physician and the fictional detective. Thorndyke's eyeglass on the casket's plain base is a textbook case. Used for <span class="dim d-investigation_and_observation">Investigation and observation</span>.</dd></div>
+      <div><dt>Thing theory and the social life of things<small>Bill Brown (2001); Arjun Appadurai and Igor Kopytoff (1986)</small></dt><dd>Brown argues that an object becomes a “thing” when it stops working as expected and we notice it. Appadurai and Kopytoff follow objects through changing regimes of value. The casket passes from prison workshop to keepsake, memento, museum exhibit, stolen goods, evidence and trophy. Used for <span class="dim d-objects_and_material_value">Objects and material value</span>.</dd></div>
+      <div><dt>The two stories of detective fiction<small>Tzvetan Todorov (1966); Roland Barthes, <i>S/Z</i> (1970)</small></dt><dd>Todorov separates the story of the crime, which is hidden, from the story of the investigation, which is told. Barthes's hermeneutic code names how a narrative poses an enigma, delays it and finally discloses it. Both predict that concealment is named most fully at the moment it ends. Used for <span class="dim d-deception_and_concealment">Deception and concealment</span>.</dd></div>
+      <div><dt>Forensic narrative and the plot of explanation<small>Ronald R. Thomas (1999); Peter Brooks (1984)</small></dt><dd>Thomas reads the fictional detective as a figure for new forensic technologies; Thorndyke, a medical jurist with a laboratory, is Freeman's scientific detective. Brooks reads plot as a desire for the end that makes sense of the beginning. Used for <span class="dim d-knowledge_and_revelation">Knowledge and revelation</span>.</dd></div>
+      <div><dt>Orientalism and epistemic violence<small>Edward Said (1978); Gayatri Chakravorty Spivak (1988)</small></dt><dd>Said describes how the West constructs the East as an object to be known, displayed and explained. Spivak asks what happens to those who are spoken for. Uyenishi, who made the casket, dies before the story begins; his only words reach us through a Western detective's dictionary. Used across all four dimensions, and on my own categories.</dd></div>
+      <div><dt>Algorithmic criticism and capta<small>Stephen Ramsay (2011); Johanna Drucker (2011); Franco Moretti (2000)</small></dt><dd>Ramsay treats computation as a way of deforming a text to provoke new readings rather than prove them. Drucker insists that humanities data is “capta”, taken by an interpreter rather than given. Moretti's study of clues in Conan Doyle's rivals shows how counting can sharpen a genre question. These set the limits on what the charts can claim.</dd></div>
+    </dl>
+  </section>
+
+  <section class="sec" id="corpus" aria-labelledby="h-corpus">
+    <p class="sec-num">Step 3</p>
+    <div class="with-notes">
+      <h2 id="h-corpus">The full corpus and its segmentation</h2>
+      <aside class="note">
+        <p><b>Source file</b><br><a href="#" data-file="magic_casket.txt">magic_casket.txt</a></p>
+        <p><b>Text.</b> R. Austin Freeman, “The Magic Casket”, collected in <i>The Magic Casket</i> (1927). Freeman died in 1943, and the story is in the public domain in India and the United States.</p>
+      </aside>
+      <div class="prose">
+        <p>The complete story was uploaded as plain text: <span class="num">9,122</span> words in <span class="num">154</span> paragraphs. Pre-processing was kept light, so the text a reader sees on this site is the text the model saw. For matching only, phrases and text were normalised for Unicode, letter case, curly and straight quotation marks and whitespace, and a phrase had to match as a whole, never as part of a longer word.</p>
+        <p>For analysis the story was divided into thirteen segments of about twelve paragraphs, grouped into four narrative stages. Segments are an analytical convenience; their edges influence every density figure. The descriptions below were rewritten after a full close reading, because several of the provisional labels in the Colab notebook did not describe the paragraphs they covered. Segment 4, for example, was labelled as Uyenishi's background but is the social interlude of Brodribb's evening visit, which is why it has no matches at all.</p>
+      </div>
+    </div>
+    <div data-table="segments" style="margin-top:20px"></div>
+  </section>
+
+  <nav class="next-prev" aria-label="Pages">
+    <a href="index.html"><span>Previous</span><b>Overview</b></a>
+    <a class="nx" href="extraction.html"><span>Next</span><b>Extraction</b></a>
+  </nav>
+</main>
+
+<footer id="site-foot"></footer>
+<script src="casket-data.js"></script>
+<script src="site.js"></script>
+<script src="charts.js"></script>
+<script>
+  document.querySelectorAll("[data-file]").forEach((a) => (a.href = fileUrl(a.dataset.file)));
+
+  // framework grid
+  const DESC = {
+    investigation_and_observation: ["The language through which Thorndyke observes physical details and identifies clues.", { physical_observation: "Objects, surroundings, marks and physical details", suspicion_and_inquiry: "Questions, suspicions and attempts to understand unusual events", evidence_and_inspection: "Examination of objects and material evidence to establish facts" }],
+    objects_and_material_value: ["The significance of material objects, their ownership, appearance and actual value.", { objects_and_possessions: "The handbag, casket, pearls, jar and other possessions", appearance_and_material: "Materials, surfaces, construction and outward appearance", ownership_and_exchange: "Ownership, inheritance, transactions and possession" }],
+    deception_and_concealment: ["How secrets, hidden objects and misleading appearances shape the mystery.", { theft_and_intrusion: "Burglary, forced entry, theft and suspicious activities", secrecy_and_hidden_information: "Concealment, hidden messages and undisclosed information", misleading_appearances: "Visible appearances that conceal an object's real nature or purpose" }],
+    knowledge_and_revelation: ["The movement from uncertainty towards understanding through interpretation and discovery.", { reasoning_and_deduction: "Logical connections, explanations and deductions from clues", language_and_decoding: "Interpreting the Japanese characters, words and message", discovery_and_resolution: "Revealing the hidden secret and resolving the mystery" }],
+  };
+  document.getElementById("framework-grid").innerHTML = DIM_KEYS.map((k) => `
+    <div class="d-${k}"><h3>${DIMS[k].label}</h3><p>${DESC[k][0]}</p>
+      <ul>${Object.entries(DESC[k][1]).map(([s, d]) => `<li><code>${s}</code><span>${d}</span></li>`).join("")}</ul></div>`).join("");
+
+  // partial reading blocks with marked phrases highlighted
+  const norm = (s) => s.replace(/[’‘]/g, "'").replace(/[“”]/g, '"').toLowerCase();
+  const MODE = { first: "Opening block of Part 1", random: "Random block of Part 2 (seed 42)", last: "Closing block of Part 3" };
+  document.getElementById("blocks").innerHTML = D.partial.map((b) => {
+    const raw = D.text.slice(b.start, b.end);
+    const low = norm(raw);
+    const spans = [];
+    b.marked.forEach((m) => {
+      const p = norm(m.phrase).replace(/^thorndyke's /, "");
+      const i = low.indexOf(p);
+      if (i >= 0) spans.push([i, i + p.length]);
+    });
+    spans.sort((a, c) => a[0] - c[0]);
+    let html = "", cur = 0;
+    spans.forEach(([a, e]) => { if (a < cur) return; html += esc(raw.slice(cur, a)) + "<mark>" + esc(raw.slice(a, e)) + "</mark>"; cur = e; });
+    html += esc(raw.slice(cur));
+    html = html.split(/\n\s*\n/).map((p) => `<p>${p.replace(/\n/g, " ")}</p>`).join("");
+    const carried = b.marked.filter((m) => m.carried).length;
+    return `<article class="block">
+      <div class="block-head"><h3>${MODE[b.mode]}</h3><span>32 units · ${b.words} words · ${b.marked.length} phrases marked · ${carried} reappear in the full extraction</span></div>
+      <div class="passage" id="pass-${b.part}">${html}</div>
+      <button class="btn ghost" type="button" data-toggle="pass-${b.part}" aria-expanded="false" style="margin-top:10px">Show the whole block</button>
+      <ul class="marked-list">${b.marked.map((m) => `<li class="${m.carried ? "carried" : ""}">${esc(m.phrase)}<span class="st">${m.carried ? "kept" : "not extracted"}</span></li>`).join("")}</ul>
+    </article>`;
+  }).join("") + `<p class="prose small ui muted" style="margin-top:22px">“Kept” means the phrase, or a phrase containing it, appears in the LLM's verified extraction. 23 of the 30 marked phrases were kept. The seven that were not fall into three groups: atmosphere and judgement (“Anything might happen in a place like this”, “most imprudent thing”, “shadowy, but quite distinct”); the museum and its display (“Victoria and Albert Museum”, “exposed in a glass case”); and two phrases about how Japanese people are described (“maker of those pretty trifles”, “shady antecedents”). The framework had no category for display or for the description of people, so the model was never asked to collect them. That gap is itself a finding, taken up in the <a href="interpretation.html#orientalism">interpretation</a>.</p>`;
+  document.querySelectorAll("[data-toggle]").forEach((btn) => btn.addEventListener("click", () => {
+    const el = document.getElementById(btn.dataset.toggle);
+    const open = el.classList.toggle("open");
+    btn.setAttribute("aria-expanded", open);
+    btn.textContent = open ? "Show less" : "Show the whole block";
+  }));
+</script>
+</body>
+</html>

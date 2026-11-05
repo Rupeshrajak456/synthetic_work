@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analysis · Reading the Magic Casket</title>
+<meta name="description" content="Interactive visualisations testing whether The Magic Casket moves from observation to revelation: positions, densities, stage tests, sub-types and narrative voice.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Instrument+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-head"></header>
+
+<main id="main" class="wrap">
+  <header class="page-title">
+    <p class="kicker">Step 6</p>
+    <h1>Testing the claim against 154 phrases</h1>
+    <p class="lede">The claim makes a prediction about order: observation first, concealed evidence next, deduction and revelation last. Each figure below asks one question that could prove it wrong.</p>
+  </header>
+
+  <section class="sec" aria-labelledby="h-a1">
+    <figure class="fig" style="margin-top:0">
+      <div class="fig-head"><h3 id="h-a1">Does each theme occupy a different part of the story?</h3><span class="fig-no">Figure A1</span></div>
+      <p class="how">Each tick is one matched phrase at its position in the text. Under each row, the line spans the middle half of that theme's matches and the dot marks their average position. Grey bands are the four narrative stages.</p>
+      <div class="chart" data-chart="dispersion"></div>
+      <figcaption><b>Yes, and in the predicted order.</b> The average positions run 37% (investigation), 49% (objects), 61% (concealment) and 87% (knowledge). Knowledge is the most concentrated: the middle half of its matches lies between 78% and 97% of the way through. Objects run the whole length of the story, which is what we would expect of a plot built around one thing that never leaves the stage.</figcaption>
+    </figure>
+  </section>
+
+  <section class="sec" aria-labelledby="h-a2">
+    <figure class="fig" style="margin-top:0">
+      <div class="fig-head"><h3 id="h-a2">How does the density of each theme rise and fall?</h3><span class="fig-no">Figure A2</span></div>
+      <p class="how">Matches per 100 words in each of the thirteen segments, so long and short segments are comparable. Hover to read all four values for a segment and what happens in it.</p>
+      <div data-legend="line"></div>
+      <div class="chart" data-chart="lines"></div>
+      <figcaption><b>Two clear trends and two waves.</b> Knowledge rises almost steadily to its peak in the last segment (1.49 per 100 words; Spearman ρ = 0.82, p = 0.001). Investigation peaks in the opening (1.60) and weakens overall (ρ = −0.49, p = 0.09), but it returns in segment 8 when Thorndyke examines the casket. Objects peak at that same examination (2.03), and concealment has two crests: the burglaries of segment 6 and the explanation of segment 13.</figcaption>
+    </figure>
+  </section>
+
+  <section class="sec" aria-labelledby="h-a3">
+    <figure class="fig" style="margin-top:0">
+      <div class="fig-head"><h3 id="h-a3">Where are the gaps?</h3><span class="fig-no">Figure A3</span></div>
+      <p class="how">The same data as a grid. Numbers are raw matches; the shade is matches per 100 words.</p>
+      <div class="chart" data-chart="heatmap"></div>
+      <figcaption><b>The empty cells matter as much as the full ones.</b> No concealment or knowledge language appears in the first four segments: at the start, the story does not yet know what it is hiding. Segment 4, Brodribb's evening visit, has no matches in any theme; it is social comedy, and the dictionary rightly ignores it. Segment 11, the dinner after the pearls are found, contains only knowledge.</figcaption>
+    </figure>
+    <details class="data"><summary>Show the data table</summary><div data-table="segments"></div></details>
+  </section>
+
+  <section class="sec" aria-labelledby="h-a4">
+    <figure class="fig" style="margin-top:0">
+      <div class="fig-head"><h3 id="h-a4">Is each theme concentrated in particular stages, or spread evenly?</h3><span class="fig-no">Figure A4</span></div>
+      <p class="how">Bars are the observed matches in each stage. The dashed line is what we would expect if the theme were spread in proportion to the stage's length. A chi-square goodness-of-fit test summarises the gap.</p>
+      <div class="chart" data-chart="stages"></div>
+      <figcaption><b>Three themes are concentrated; objects are not.</b> Investigation is over-represented in stage I (13 against 4.9 expected), and knowledge in stage IV (22 against 6.1). Concealment is absent from stage I and above expectation in stages II and IV. Objects alone do not differ from an even spread (χ² = 5.10, p = 0.165). The object stays constant while what is said about it changes.</figcaption>
+    </figure>
+    <div class="prose small ui" style="margin-top:18px">
+      <p class="muted">These tests are exploratory. Several expected counts fall just below 5, the usual threshold for a chi-square test, and occurrences in a single text are not independent of each other: a phrase like “the casket” recurs because the story keeps returning to it. The p-values show which patterns are strong enough to be worth reading closely, not that the reading is proved.</p>
+    </div>
+    <details class="data"><summary>Show the statistics table</summary><div data-table="stats"></div></details>
+  </section>
+
+  <section class="sec" aria-labelledby="h-a5">
+    <figure class="fig" style="margin-top:0">
+      <div class="fig-head"><h3 id="h-a5">Does each theme change its form as the story goes on?</h3><span class="fig-no">Figure A5</span></div>
+      <p class="how">Each row is a sub-type and each column a narrative stage. Circle area is the number of matches. Hover to see example phrases.</p>
+      <div class="chart" data-chart="substage"></div>
+      <figcaption><b>Every theme moves from a social register to a material one.</b> Looking becomes inspecting: physical observation and suspicion fill stage I (12 matches), while evidence and inspection gather in stages III and IV (8). The casket is first a possession, passed between owners in stage II (24 mentions of things owned), and then a material, alloy and lacquer and polish, in stages III and IV (13). Concealment begins as crime (11 thefts and intrusions in stage II) and ends as craft (6 misleading appearances in stage IV). All six decoding phrases fall in the last stage.</figcaption>
+    </figure>
+  </section>
+
+  <section class="sec" aria-labelledby="h-a6">
+    <figure class="fig" style="margin-top:0">
+      <div class="fig-head"><h3 id="h-a6">Which sub-types carry the most weight?</h3><span class="fig-no">Figure A6</span></div>
+      <p class="how">Total matches for each of the twelve sub-types, grouped by theme.</p>
+      <div class="chart" data-chart="subtypes"></div>
+      <figcaption><b>Possessions dominate, and decoding is thin.</b> Objects and possessions account for 38 of 154 matches, a quarter of the total, largely because “the casket” occurs 18 times. Language and decoding, the sub-type closest to the story's climax, has only 6. The decisive act of knowledge is brief; the build-up of things is long.</figcaption>
+    </figure>
+  </section>
+
+  <section class="sec" aria-labelledby="h-a7">
+    <figure class="fig" style="margin-top:0">
+      <div class="fig-head"><h3 id="h-a7">What words does the story keep returning to?</h3><span class="fig-no">Figure A7</span></div>
+      <p class="how">The fifteen most frequent extracted phrases. Only five occur more than once; the rest of the list are single occurrences, shown in the order they appear in the story. Colour shows the theme each was filed under.</p>
+      <div class="chart" data-chart="phrases"></div>
+      <figcaption><b>A vocabulary of containers.</b> Of the five phrases that occur more than once, four name something that holds something else: the casket, the safe, the strong-room, a handbag. The fifth, “a squat, shapeless figure”, is the casket again, described by its outside. The pearls move from a leather bag to a safe to a pump; the casket moves from strong-room to glass case to strong-room again. The story's material world is boxes within boxes.</figcaption>
+    </figure>
+  </section>
+
+  <section class="sec" id="voice" aria-labelledby="h-a8">
+    <figure class="fig" style="margin-top:0">
+      <div class="fig-head"><h3 id="h-a8">Who speaks the evidence: the narrator or the characters?</h3><span class="fig-no">Figure A8</span></div>
+      <p class="how">For each theme, the share of matches that fall inside quotation marks. The dashed line is the share of the whole story that is dialogue (64% of words), so bars to its right are spoken more than the story's average.</p>
+      <div class="chart" data-chart="voice"></div>
+      <figcaption><b>Observation is narrated; crime and knowledge are spoken.</b> Only 43% of investigation phrases are in dialogue, well below the story's 64%: looking belongs to the narrator, Jervis. Concealment is 94% dialogue, because the crime reaches us almost entirely as Brodribb's report. Knowledge is 78% dialogue, because Thorndyke delivers his solution as an after-dinner lecture. The heuristic counts quotation marks, so it cannot tell whose voice is speaking, only that someone other than the narrator is.</figcaption>
+    </figure>
+  </section>
+
+  <section class="sec" aria-labelledby="h-sum">
+    <h2 id="h-sum">What the figures establish, and what they do not</h2>
+    <div class="prose">
+      <p>Read together, the figures support the claim's order. Observation comes first, concealment gathers in the middle and again at the end, and knowledge is concentrated in the final stage. They also complicate it in three ways that the claim did not anticipate. The pearls are physically found in segment 10, before the reasoning that explains where they were is given in segments 12 and 13. Concealment peaks twice, once as events and once as explanation. And the object itself is the one constant, its share unchanged while its meaning shifts from possession to material to message.</p>
+      <p>What the figures cannot do is say why. Counts locate where to read; they do not read. That is the work of the <a href="interpretation.html">interpretation</a>.</p>
+    </div>
+  </section>
+
+  <nav class="next-prev" aria-label="Pages">
+    <a href="extraction.html"><span>Previous</span><b>Extraction</b></a>
+    <a class="nx" href="interpretation.html"><span>Next</span><b>Interpretation</b></a>
+  </nav>
+</main>
+
+<footer id="site-foot"></footer>
+<script src="casket-data.js"></script>
+<script src="site.js"></script>
+<script src="charts.js"></script>
+</body>
+</html>
