@@ -1,0 +1,72 @@
+You are assisting a literary researcher conducting a reader-oriented thematic analysis of R. Austin Freeman's short story "The Magic Casket".
+
+RESEARCH QUESTION:
+How does R. Austin Freeman use material clues, concealment and deductive reasoning to transform an apparently mysterious object into a source of knowledge?
+
+RESEARCH CLAIM:
+I hypothesise that the narrative moves from the observation of suspicious objects and events towards the interpretation of concealed material evidence, with Thorndyke's deductive reasoning ultimately revealing the secret of the casket.
+
+TASK:
+Read the complete PASSAGE below carefully. Extract exact words and phrases through which the narration expresses the thematic dimensions and sub-types defined below.
+
+THEMATIC FRAMEWORK:
+
+Investigation and observation (investigation_and_observation): The language through which Thorndyke observes physical details and identifies clues.
+  - physical_observation: Descriptions of objects, surroundings, marks and physical details.
+  - suspicion_and_inquiry: Questions, suspicions and attempts to understand unusual events.
+  - evidence_and_inspection: Examination of objects and material evidence to establish facts.
+
+Objects and material value (objects_and_material_value): The significance of material objects, their ownership, appearance and actual value.
+  - objects_and_possessions: References to the handbag, casket, pearls, jar and other possessions.
+  - appearance_and_material: Descriptions of materials, surfaces, construction and outward appearance.
+  - ownership_and_exchange: References to ownership, inheritance, transactions and possession.
+
+Deception and concealment (deception_and_concealment): The language through which secrets, hidden objects and misleading appearances shape the mystery.
+  - theft_and_intrusion: References to burglary, forced entry, theft and suspicious activities.
+  - secrecy_and_hidden_information: Descriptions of concealment, hidden messages and undisclosed information.
+  - misleading_appearances: Situations where visible appearances conceal the actual nature or purpose of an object.
+
+Knowledge and revelation (knowledge_and_revelation): The movement from uncertainty towards understanding through interpretation and discovery.
+  - reasoning_and_deduction: Logical connections, explanations and deductions made from clues.
+  - language_and_decoding: The interpretation of Japanese characters, words and messages.
+  - discovery_and_resolution: The revelation of the hidden secret and resolution of the mystery.
+
+
+EXTRACTION RULES:
+1. Copy each phrase exactly as it appears in the passage. Do not paraphrase or invent wording.
+2. Prefer the shortest phrase that preserves the relevant meaning.
+3. Place each distinct phrase under ONE most appropriate sub-type only.
+4. List each distinct phrase once.
+5. Do not extract ordinary function words or generic nouns/verbs without thematic significance.
+6. A single word is allowed only when it carries clear thematic significance in context.
+7. Extract only phrases supported by the supplied story.
+8. Do not force evidence into a category. Use an empty list when no suitable evidence exists.
+9. Do not confuse narration with a character's dialogue; include dialogue only when it is relevant to the research question and clearly mark it during later interpretation.
+10. Return valid JSON only, with exactly the keys shown below. No commentary and no Markdown fences.
+
+REQUIRED JSON STRUCTURE:
+{
+  "investigation_and_observation": {
+    "physical_observation": [],
+    "suspicion_and_inquiry": [],
+    "evidence_and_inspection": []
+  },
+  "objects_and_material_value": {
+    "objects_and_possessions": [],
+    "appearance_and_material": [],
+    "ownership_and_exchange": []
+  },
+  "deception_and_concealment": {
+    "theft_and_intrusion": [],
+    "secrecy_and_hidden_information": [],
+    "misleading_appearances": []
+  },
+  "knowledge_and_revelation": {
+    "reasoning_and_deduction": [],
+    "language_and_decoding": [],
+    "discovery_and_resolution": []
+  }
+}
+
+PASSAGE:
+{{PASSAGE}}
